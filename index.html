@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drupath M M — Frontend Developer</title>
+  <meta name="description" content="Drupath M M — Frontend Developer. Clean portfolio with accessible UI, simple animations, and projects." />
+  <meta name="author" content="Drupath M M" />
+  <meta name="keywords" content="Frontend Developer, Portfolio, React, JavaScript, HTML, CSS" />
+
+  <!-- Open Graph (social previews) -->
+  <meta property="og:title" content="Drupath M M — Frontend Developer" />
+  <meta property="og:description" content="Frontend developer focusing on accessibility, performance and clean UI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:url" content="/" />
+
+  <!-- favicon -->
+  <link rel="icon" href="assets/picon.ico" />
+
+  <!-- Local stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="theme-dark">
+
+  <!-- Skip to content -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Background waves -->
+  <div id="wave-wrap" aria-hidden="true">
+    <svg class="wave wave-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#07101a" d="M0,64L48,96C96,128,192,192,288,197.3C384,203,480,149,576,149.3C672,149,768,203,864,213.3C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L0,320Z"></path>
+    </svg>
+    <svg class="wave wave-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#0b1220" d="M0,160L40,160C80,160,160,160,240,165.3C320,171,400,181,480,197.3C560,213,640,235,720,224C800,213,880,171,960,160C1040,149,1120,171,1200,154.7C1280,139,1360,85,1400,58.7L1440,32L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <!-- Cursor spotlight -->
+  <div id="cursor-spot" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header id="top-nav" role="banner">
+    <div class="nav-inner">
+      <a class="brand" href="#intro" title="Home">
+        <div class="avatar">
+          <!-- Your logo/profile image -->
+          <img src="assets/profile.png" alt="Drupath M M" id="profile-img" loading="lazy">
+        </div>
+        <div class="brand-text">
+          <div class="name">Drupath M M</div>
+          <div class="role">Frontend Developer</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <a href="#intro" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/resume1.pdf" class="btn small" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+
+    <!-- Intro Section -->
+    <section id="intro" class="section intro scroll-reveal">
+      <div class="intro-left">
+        <p class="muted">Hello — my name is</p>
+        <h1>Drupath M M</h1>
+        <h2 id="animated-subtitle" class="subtitle">I craft clean UI with meaningful UX.</h2>
+        <p class="lead muted">Frontend developer focused on accessibility, performance and clean design. Open to frontend roles and freelance projects.</p>
+        <div class="cta-row">
+          <a href="#contact" class="btn primary">Let's talk</a>
+          <a href="#projects" class="btn ghost">See projects</a>
+        </div>
+      </div>
+
+      <aside class="intro-right">
+        <div class="card">
+          <!-- Replace with your main profile image -->
+          <div class="profile-preview">
+            <img src="assets/profile2.jpg" alt="Profile photo" loading="lazy">
+          </div>
+
+          <div class="status" style="margin-top:14px;">
+            <div class="small muted">Current</div>
+            <div class="bold">Open to work — Frontend</div>
+          </div>
+
+          <div class="card-actions" style="margin-top:12px; display:flex; gap:12px; align-items:center;">
+            <a href="assets/resume1.pdf" class="btn solid" target="_blank" rel="noopener">Download Resume</a>
+            <a href="#contact" class="btn outline">Contact</a>
+          </div>
+        </div>
+
+        <div class="skills-quick" style="margin-top:18px;">
+          <div class="small muted">Quick skills</div>
+          <div class="chips" style="margin-top:8px;">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">React</span>
+            <span class="chip">Python</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section scroll-reveal">
+      <h3 class="section-title">About</h3>
+      <div class="about-grid">
+        <div>
+          <p class="muted">I build polished, accessible interfaces and thoughtful interactions. I enjoy clean code, designing for clarity, and making features that delight users without complexity.</p>
+          <p class="muted">I have experience with frontend stacks (React, TypeScript), building small production apps (HabitFlow, Crypto Tracker), and using APIs and data visualisation. I focus on performance, accessibility (a11y), and maintainable code.</p>
+
+          <h4>Highlights</h4>
+          <ul class="muted">
+            <li>Responsive, accessible UI with progressive enhancement</li>
+            <li>Clean component-based front-end (React + Vanilla JS)</li>
+            <li>Experience with data viz (Chart.js) and REST APIs (CoinGecko)</li>
+          </ul>
+        </div>
+
+        <aside>
+          <div class="card" style="padding:12px;">
+            <div class="small muted">Education</div>
+            <div class="bold" style="margin-top:6px;">BCA — Benedictine Academy</div>
+            <div class="muted small" style="margin-top:8px;">Supervisor: Manjula Biradar</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scroll-reveal">
+      <h3 class="section-title">Selected Projects</h3>
+      <div class="projects-grid">
+
+        <!-- HabitFlow -->
+        <article class="project-card" tabindex="0">
+          <div class="thumb">
+            <!-- Replace with your screenshot -->
+            <img src="assets/habitflow.png" alt="HabitFlow screenshot" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h4>HabitFlow — Habit Tracker</h4>
+            <p class="muted small">HabitFlow helps users build daily habits with streaks and analytics. Built with React and local persistence.</p>
+            <div class="proj-tags"><span class="tag">React</span><span class="tag">LocalStorage</span></div>
+            <div class="proj-links">
+              <a class="link" href="https://github.com/drupathmm/habitflow" target="_blank" rel="noopener">Source</a>
+              <a class="link" href="https://drupathmm.github.io/habitflow/" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Crypto Tracker -->
+        <article class="project-card" tabindex="0">
+          <div class="thumb">
+            <!-- Replace with your screenshot -->
+            <img src="assets/crypto.png" alt="Crypto Tracker screenshot" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h4>Cryptocurrency Tracker</h4>
+            <p class="muted small">Real-time prices, sparkline charts and watchlist. Built with React and Chart.js.</p>
+            <div class="proj-tags"><span class="tag">React</span><span class="tag">Chart.js</span></div>
+            <div class="proj-links">
+              <a class="link" href="https://github.com/JJTK780/Crypto-Currency-Tracker" target="_blank" rel="noopener">Source</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Portfolio -->
+        <article class="project-card" tabindex="0">
+          <div class="thumb">
+            <!-- Replace with your screenshot -->
+            <img src="assets/portfolio.png" alt="Portfolio screenshot" loading="lazy">
+          </div>
+          <div class="proj-body">
+            <h4>Personal Portfolio</h4>
+            <p class="muted small">This portfolio — lightweight, accessible, and fast.</p>
+            <div class="proj-tags"><span class="tag">HTML</span><span class="tag">CSS</span></div>
+            <div class="proj-links">
+              <a class="link" href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener">Source</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section scroll-reveal">
+      <h3 class="section-title">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-head"><span>HTML / CSS</span><span>80%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>JavaScript</span><span>75%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-head"><span>React</span><span>70%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:70%"></div></div>
+        </div>
+         <div class="skill">
+          <div class="skill-head"><span>Python</span><span>65%</span></div>
+          <div class="bar"><div class="bar-fill" style="width:65%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section scroll-reveal">
+      <h3 class="section-title">Contact</h3>
+      <p class="muted">Interested in working together? Send me a message.</p>
+      <form id="contact-form" class="contact-form" novalidate>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <textarea id="message" name="message" rows="5" placeholder="Short message" required></textarea>
+        <div class="form-row">
+          <button class="btn primary" type="submit">Send message</button>
+          <div class="mailto-note muted">Or email: <strong id="email-text">drupathmm01@gmail.com</strong></div>
+        </div>
+        <div id="form-status" class="form-status" aria-live="polite"></div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>Handcrafted — <span id="year">2025</span> • Built with HTML, CSS & JS</div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" title="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
